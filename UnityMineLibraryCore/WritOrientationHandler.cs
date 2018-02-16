@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OrientationHandler : MonoBehaviour
+public class WritOrientationHandler : MonoBehaviour
 {
     [SerializeField]
     private Constraint constraint = Constraint.Portrait;

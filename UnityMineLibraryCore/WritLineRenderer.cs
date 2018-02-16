@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScrLineRenderer : MonoBehaviour {
+public class WritLineRenderer : MonoBehaviour {
     [SerializeField]
     private LineRenderer lineRenderer;
     public List<Vector3> linePoints;

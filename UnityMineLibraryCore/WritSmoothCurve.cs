@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 //Make your line more smoother using Bezier Curve Algorithm
-public class SmoothCurve : MonoBehaviour
+public class WritSmoothCurve : MonoBehaviour
 {
     //arrayToCurve is original Vector3 array, smoothness is the number of interpolations. 
     public static Vector3[] MakeSmoothCurve(Vector3[] arrayToCurve, float smoothness)

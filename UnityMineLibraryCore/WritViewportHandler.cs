@@ -4,14 +4,14 @@ using UnityEngine;
 
 [ExecuteInEditMode]
 [RequireComponent(typeof(Camera))]
-public class ViewportHandler : MonoBehaviour
+public class WritViewportHandler : MonoBehaviour
 {
     #region FIELDS
     //public Color wireColor = Color.red;
     public Color borderColor = Color.red;
     public float UnitsSize = 16; // size of your scene in unity units
     public Constraint constraint = Constraint.Portrait;
-    public static ViewportHandler Instance;
+    public static WritViewportHandler Instance;
     public new Camera camera;
 
     public float _width;

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler
+public class WritVirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler
 {
     private Image joystickArea;
     private Image joystickPoint;
@@ -17,9 +17,9 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
         joystickPoint = transform.GetChild(0).GetComponent<Image>();
     }
 
-    public static VirtualJoystick Instance
+    public static WritVirtualJoystick Instance
     {
-        get { return GameObject.FindObjectOfType<VirtualJoystick>(); }
+        get { return GameObject.FindObjectOfType<WritVirtualJoystick>(); }
     }
     public virtual void OnPointerDown(PointerEventData ped)
     {
