@@ -3,15 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckNetConnection
+public class ScCheckNetConnection
 {
-    private static CheckNetConnection Instance;
-    public static CheckNetConnection GetInstance
+    private static ScCheckNetConnection Instance;
+    public static ScCheckNetConnection GetInstance
     {
         get
         {
             if (Instance == null)
-                Instance = new CheckNetConnection();
+                Instance = new ScCheckNetConnection();
             return Instance;
         }
     }
@@ -42,6 +42,25 @@ public class CheckNetConnection
         {
             argAction(true);
         }
+    }
+    //-----------------------------------------
+    private void onCheckAction()
+    {
+        onFirst((returnedValue) => {
+            Debug.Log(returnedValue);
+        });
+    }
+    private void onFirst(Action<string> argAction)
+    {
+        /*StartCoroutine(onSecond((returnValue) => {
+            argAction("Returned value from first: " + returnValue);
+        }));*/
+    }
+    private IEnumerator onSecond(Action<string> argAction)
+    {
+        argAction("Befor returned value from second");
+        yield return new WaitForSeconds(10f);
+        argAction("After returned value from second");
     }
 }
 /*
