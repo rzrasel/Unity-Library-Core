@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS tbl_word_list
 -- https://www.ef.com/english-resources/english-vocabulary/top-1000-words/
 -- http://www.english-bangla.com/dictionary/able
 -- http://www.banglaconverter.net/tools.php?f=Unicode-To-Bijoy
+-- http://learnersdictionary.com/3000-words/alpha/a
 -- INSERT INTO tbl_word_list VALUES(15251198029556, 'Actually', null, null, null);
 DELETE FROM tbl_word_list;
 INSERT INTO tbl_word_list VALUES(15250260323147, 'Ability', null, null, null);
@@ -90,6 +91,16 @@ INSERT INTO tbl_word_list VALUES(15252385435251, 'Amongst', null, null, null);
 INSERT INTO tbl_word_list VALUES(15252373601170, 'Amount', null, null, null);
 
 INSERT INTO tbl_word_list VALUES(15252373751368, 'Analysis', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558318715, 'And', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558358790, 'Animal', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558442069, 'Another', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558515898, 'Answer', null, null, null);
+
+INSERT INTO tbl_word_list VALUES(15252558645441, 'Any', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558686948, 'Anyone', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558754270, 'Anything', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558833740, 'Appear', null, null, null);
+INSERT INTO tbl_word_list VALUES(15252558893476, 'Apply', null, null, null);
 
 INSERT INTO tbl_word_list VALUES(88888888888, 'aaaaaaaaaa', null, null, null);
 DROP TABLE IF EXISTS tbl_spelling_list;
@@ -151,7 +162,16 @@ INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252373601170, 15252388867
 INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252373601170, 15252388953623, 'G¨gvDbU&');
 
 INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252373751368, 15252389043642, 'G¨b¨vjvwmm&');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558318715, 15252574608853, 'A¨bW&');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558358790, 15252574656706, 'A¨vwbg¨vj&‌');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558442069, 15252574753142, 'A¨vbv`v(i)');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558515898, 15252574911717, 'A¨vbmv(i)');
 
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558645441, 15252575007469, 'Gwb');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558686948, 15252575104041, 'GwbIAvb&');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558754270, 15252575238338, 'Gwbw_O&');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558833740, 15252575324513, 'A¨vwcAv(i)');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15252558893476, 15252575417466, 'A¨vc­vB');
 
 
 INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
@@ -215,24 +235,39 @@ INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252373601170, 152523888676
 INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252373601170, 15252388953623, '‡gvU cwigvY');
 
 INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252373751368, 15252389043642, 'we‡klY');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558318715, 15252574608853, 'Ges; I; Av‡iv');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558358790, 15252574656706, 'c«vYx; Rxe; Rš‘; cï c«K…wZ †jvK ev gvbyl');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558442069, 15252574753142, 'Ab¨; Aci: Av‡iK Rb');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558515898, 15252574911717, 'DËi; Reve');
+
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558645441, 15252575007469, '‡Kvb wKQy; †h †KD');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558686948, 15252575104041, '‡h †KD; †h †Kvb †jvK; †h †Kvb; †h‡Kn; †h †Kvb GKRb');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558754270, 15252575238338, '‡h †Kv‡bv wKQy; hvnv nh় wKQy; hvnv-wKQy; hvnv nh় wKQy; hvnv-wKQy; K”Qy');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558833740, 15252575324513, '`…wó †MvPi nIqv');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15252558893476, 15252575417466, 'c«‡qvM Kiv');
 
 INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
 -- practice
 -- test
 -- Word Champ
 ```
-INSERT INTO tbl_word_list VALUES(88888888888, 'And', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Animal', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Another', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Answer', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Approach', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Area', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Argue', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Arm', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Around', null, null, null);
 
-INSERT INTO tbl_word_list VALUES(88888888888, 'Any', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Anyone', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Anything', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Appear', null, null, null);
-INSERT INTO tbl_word_list VALUES(88888888888, 'Apply', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Arrive', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Art', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Article', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'Artist', null, null, null);
+INSERT INTO tbl_word_list VALUES(88888888888, 'As', null, null, null);
 
 INSERT INTO tbl_word_list VALUES(88888888888, 'aaaaaaaaaa', null, null, null);
+
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
 
 
 
