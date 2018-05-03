@@ -272,7 +272,63 @@ INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaa
 
 
 
+INSERT INTO tbl_word_list VALUES(15253306438059, 'Approach', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306513147, 'Area', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306559877, 'Argue', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306615918, 'Arm', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306676065, 'Around', null, null, null);
 
+INSERT INTO tbl_word_list VALUES(15253306725030, 'Arrive', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306782477, 'Art', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306842518, 'Article', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306892994, 'Artist', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306956967, 'As', null, null, null);
+
+
+
+
+INSERT INTO tbl_word_list VALUES(, '', null, null, null);
+INSERT INTO tbl_word_list VALUES(, '', null, null, null);
+INSERT INTO tbl_word_list VALUES(, 'Argue', null, null, null);
+INSERT INTO tbl_word_list VALUES(, 'Arm', null, null, null);
+INSERT INTO tbl_word_list VALUES(, 'Around', null, null, null);
+
+
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15253306438059, 1111111, 'A¨v‡c«ŠP&');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15253306513147, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15253306559877, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15253306615918, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 15253306676065, 1111111, 'aaaaaaaaaa');
+
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15253306438059, 1111111, 'wbKUeZ©x nIqv');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15253306513147, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15253306559877, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15253306615918, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 15253306676065, 1111111, 'aaaaaaaaaa');
+
+
+
+
+
+
+
+INSERT INTO tbl_word_list VALUES(15253306725030, 'Arrive', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306782477, 'Art', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306842518, 'Article', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306892994, 'Artist', null, null, null);
+INSERT INTO tbl_word_list VALUES(15253306956967, 'As', null, null, null);
+
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_spelling_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
+INSERT INTO tbl_meaning_list VALUES(15250225243159, 11222222, 1111111, 'aaaaaaaaaa');
 
 
 
